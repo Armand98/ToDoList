@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:5:5-64
+11-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:6:5-80
+12-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:8:5-25:19
+15        android:allowBackup="true"
+15-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\Armand\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:14:9-40
+25        <activity android:name="com.example.todolist.ListElementActivity" />
+25-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:15:9-57
+25-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:15:19-54
+26        <activity android:name="com.example.todolist.MainActivity" >
+26-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:16:9-22:20
+26-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:16:19-47
+27            <intent-filter>
+27-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:18:17-69
+28-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:20:17-77
+30-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <receiver android:name="com.example.todolist.ReminderBroadcast" />
+34-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:24:9-54
+34-->F:\Users\Armand\AndroidStudioProjects\ToDoList\app\src\main\AndroidManifest.xml:24:19-52
+35    </application>
+36
+37</manifest>
